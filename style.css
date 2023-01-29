@@ -1,0 +1,46 @@
+#template-form {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  #template, #result{
+    height: 100px;
+  }
+
+  textarea, input[type="text"] {
+    width: 600px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 2px solid #00bfff;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #00bfff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007acc;
+  }
+  
+
+  @media only screen and (max-width: 480px) {
+    textarea, input[type="text"] {
+      width: 100%;
+      height: 30px;
+      font-size: 16px;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+  }
